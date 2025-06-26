@@ -1,7 +1,7 @@
 ---
-title: "Website 3"
+title: "My Home Page"
+execute: 
+  echo: false
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+<img src="tutorial_files/figure-html/unnamed-chunk-4-1.png" width="90%" />quarto preview
