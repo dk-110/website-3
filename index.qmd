@@ -3,5 +3,13 @@ title: "My Home Page"
 execute: 
   echo: false
 ---
+```{r setup}
+suppressPackageStartupMessages({
+  library(tidyverse)
+  library(knitr)
+})
 
-<img src="tutorial_files/figure-html/unnamed-chunk-4-1.png" width="90%" />quarto preview
+
+```{r}
+knitr::include_graphics("size_v_weight.png")
+```
